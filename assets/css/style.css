@@ -273,6 +273,7 @@ input[type=submit]:hover {
   .container {
     margin: 0 auto;
   }
+
   .imgContainer {
     width: 100%;
     float: none;
@@ -283,6 +284,11 @@ input[type=submit]:hover {
 
   .main {
     float: none;
+    border: none;
+  }
+
+  .wrapper {
+    margin-top: 50px;
   }
 }
 
