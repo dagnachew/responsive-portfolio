@@ -255,10 +255,9 @@ input[type=submit]:hover {
   }
 
   #mainHeader {
-    border-bottom: none;
-    position: relative;
     margin: 0 auto;
   }
+  
   
   #mainContent {
     padding-top: 0px !important;
