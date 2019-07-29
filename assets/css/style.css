@@ -117,6 +117,10 @@ nav a:first-child {
 }
 
 footer {
+  position: fixed;
+  width: 100%;
+  left: 0;
+  bottom: 0;
   padding: 30px 0;
   clear: both;
   font-size: 12px;
@@ -234,6 +238,7 @@ input[type=submit]:hover {
   nav {
     margin-right: 10px; 
   }
+
 }
 
 @media (max-width: 600px) {
