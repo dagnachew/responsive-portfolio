@@ -88,10 +88,21 @@ nav a:first-child {
   border-left: 0 none;
 }
 
+@keyframes fade {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+
 #mainContent {
   padding-top: 130px;
   min-height: calc(100vh - 70px);
   margin: 0 auto;
+  animation-name: fade;
+  animation-duration: 2s;
+  animation-iteration-count: 1;
+  animation direction: normal;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: forwards;
 }
 
 .prof-image {
@@ -286,18 +297,8 @@ input[type=submit]:hover {
 
   #mainContent {
     padding-top: 0;
-    animation-name: fade;
-    animation-duration: 2s;
-    animation-iteration-count: 1;
-    animation direction: normal;
-    animation-timing-function: ease-in-out;
-    animation-fill-mode: forwards;
   }
   
-  @keyframes fade {
-    from {opacity: 0;}
-    to {opacity: 1;}
-  }
 
   .prof-image {
     float: none;
