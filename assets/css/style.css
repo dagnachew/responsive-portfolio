@@ -296,6 +296,8 @@ input[type=submit]:hover {
   #brand {
     width: 100%;
     margin-left: 0;
+    padding-bottom: 95px;
+
   }
 
   #mainHeader {
