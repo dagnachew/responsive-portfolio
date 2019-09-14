@@ -140,7 +140,7 @@ footer {
 
 .socials {
   
-    float: right;
+    float: left;
     margin-top: 25px;
   }
   
@@ -352,5 +352,24 @@ input[type=submit]:hover {
   footer {
     position: static;
   }
+
+  .socials {
+    margin-top: -70px;
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+  }
+  
+.socials a {
+  display: inline-block;
+  padding-left: 25px;
+  padding-left: 25px;
+  margin-right: 15px;
+  margin: 0 auto;
+  line-height: 18px;
+  color: #fff;
+  text-decoration: none;
+  border-left: none;
+}
 }
 
