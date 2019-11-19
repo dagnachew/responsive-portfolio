@@ -1,8 +1,9 @@
 body {
-  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
-  font-size: 18px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
   line-height: 30px;
-  color: #777777;
+  color: rgb(10, 10, 10);
   background: url(../images/papyrus.png);
 }
 
@@ -23,8 +24,8 @@ p:last-child {
 h1,
 h2,
 h3 {
-  font-family: Georgia, Times, "Times New Roman", serif;
-  font-weight: 700;
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-weight: 500;
   color: #4aaaa5;
 }
 
@@ -59,7 +60,9 @@ h2 {
   float: left;
   width: 250px;
   height: 90px;
-  font-family: Georgia, Times, "Times New Roman", serif;
+  font-family: 'IBM Plex Sans', sans-serif;
+  letter-spacing: 1px;
+  /* font-family: Georgia, Times, "Times New Roman", serif; */
   font-size: 24px;
   font-weight: 700;
   line-height: 90px;
@@ -97,10 +100,11 @@ nav a:first-child {
   padding-top: 130px;
   min-height: calc(100vh - 70px);
   margin: 0 auto;
+  margin-bottom: 50px;
   animation-name: fade;
   animation-duration: 2s;
   animation-iteration-count: 1;
-  animation direction: normal;
+  animation-direction: normal;
   animation-timing-function: ease-in-out;
   animation-fill-mode: forwards;
 }
@@ -114,11 +118,14 @@ nav a:first-child {
 }
 
 .main {
-  float: left;
-  width: 100%;
+  /* float: left; */
+  /* width: 100%; */
   max-width: 960px;
+  min-height: calc(100vh - 70px);
   padding: 30px;
-  margin: 0 0 40px;
+  /* margin: 0 0 40px; */
+  margin: 0 auto;
+  
   background: #fff;
   border: 1px solid #ddd;
 }
@@ -139,7 +146,6 @@ footer {
 }
 
 .socials {
-  
     float: left;
     margin-top: 25px;
   }
@@ -256,7 +262,7 @@ input[type=submit]:hover {
   .main {
     margin-left: 5%;
     float: left;
-    width: 60%;
+    width: 90%;
   }
 
   .prof-image {
@@ -329,18 +335,17 @@ input[type=submit]:hover {
  
   .imgContainer {
     width: 100%;
-    float: none;
+    float: left;
     margin: 0 auto;
-    margin-bottom: 2rem;
+    margin-bottom: 0px;
   }
 
   .main {
     float: none;
-    width: 90%;
+    width: 100%;
     margin: 0 auto;
-    margin-bottom: 50px;
     font-size: 16px;
-    line-height: 24px;
+    line-height: 22px;
   }
 
   div.main p:first-of-type {
@@ -373,5 +378,45 @@ input[type=submit]:hover {
   text-decoration: none;
   border-left: none;
 }
+
+div.col-md-6.pr-1.float-right.mt-3 {
+  /* border: 1px solid red; */
+  margin: 0;
+  padding: 0;
+  margin-bottom: 20px;
+}
+
+div.col-md-6.pr-1.float-right.mt-3 p{
+  margin: 0;
+  padding: 0 15px 15px 20px;
+}
+
+div.col-md-6.pr-1.float-right.mt-3 p a{
+ display: inline-block;
+ margin-top: 5px;
+}
+
+div.main {
+  padding: 10px;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+main#mainContent {
+  margin-bottom: 0;
+}
+h4.pt-5.pb-1 {
+  padding-top: 0px !important;
+}
+
+div.socials a:first-of-type {
+  padding-left: 0;
+}
+
+.container {
+  margin: 0;
+  padding: 0;
+}
+
 }
 
